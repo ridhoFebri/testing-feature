@@ -47,6 +47,35 @@ if (file_exists($outfile)) {
 } else {
     echo "Error: The zip file was not created successfully.";
 }
+
+/*
+// Define the zip file name and files to add
+$zipFileName = 'protected.zip';
+$filesToZip = ['file1.txt'];
+$password = 'your_password';
+
+// Create a new ZipArchive instance
+$zip = new ZipArchive();
+
+// Open the zip file for creation
+if ($zip->open($zipFileName, ZipArchive::CREATE) === TRUE) {
+    // Set the password for the entire zip file (only ZipArchive::CM_PKWARE for PHP 5)
+    $zip->setPassword($password);
+    
+    // Add each file to the zip without individual file encryption
+    foreach ($filesToZip as $file) {
+        $zip->addFile($file);
+    }
+
+    // Close the zip archive
+    $zip->close();
+    echo "ZIP file created and password protected!";
+} else {
+    echo "Failed to create ZIP file.";
+}
+
+*/
+
 ?>
 
 <?php
