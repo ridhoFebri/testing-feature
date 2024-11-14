@@ -1,0 +1,28 @@
+php 7
+
+1. tesseract for php
+	- harus menginstall tesseract ocr di system aplikasi
+	- tidak cukup hanya menggunakan library
+	- belum mendukung Bahasa Indonesia
+	- docs : https://github.com/thiagoalessio/tesseract-ocr-for-php
+	- library tidak akurat jika text tidak jelas dan ukuran text kecil
+
+
+
+
+# OCR berbayar
+	- document ai google
+
+# improve image
+1. PHP GD bawaan php
+	- bisa memodifikasi gambar
+
+2. imagic
+	- extention tidak tersedia
+
+3. OpenCV python
+	- warna gambar kurang hitam putih
+
+
+# how to install chocolate on my system
+	https://chatgpt.com/share/673559e4-fcd0-800b-9eee-9ee72836fc31
